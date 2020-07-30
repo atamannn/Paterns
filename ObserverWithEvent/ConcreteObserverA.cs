@@ -6,9 +6,9 @@ namespace ObserverWithEvent
     {
         public void Update(int subject)
         {
-            if (subject > 5)
+            if (subject >= 5)
             {
-                Console.WriteLine("\nsubject > 5");
+                Console.WriteLine("\nsubject >= 5");
             }
         }
     }
